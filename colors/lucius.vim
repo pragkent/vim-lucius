@@ -214,9 +214,9 @@ hi Search guibg=#ffaa33 gui=none ctermbg=214 cterm=none
 " Popup Menu
 " ----------
 " normal item in popup
-hi Pmenu guifg=#e0e0e0 guibg=#303840 gui=none ctermfg=253 ctermbg=233 cterm=none
+hi Pmenu guifg=#e0e0e0 guibg=#444444 gui=none ctermfg=253 ctermbg=238 cterm=none
 " selected item in popup
-hi PmenuSel guifg=#cae682 guibg=#505860 gui=none ctermfg=186 ctermbg=237 cterm=none
+hi PmenuSel guifg=#cae682 guibg=#505860 gui=none ctermfg=253 ctermbg=32 cterm=none
 " scrollbar in popup
 hi PMenuSbar guibg=#505860 gui=none ctermbg=59 cterm=none
 " thumb of the scrollbar in the popup
