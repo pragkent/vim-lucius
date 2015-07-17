@@ -154,7 +154,7 @@ hi CursorLine gui=none guibg=#404448 gui=none cterm=none ctermbg=236 cterm=none
 " directory names and other special names in listings
 hi Directory guifg=#c0e0b0 gui=none ctermfg=151 cterm=none
 " error messages on the command line
-hi ErrorMsg guifg=#ee0000 guibg=none gui=none ctermfg=196 ctermbg=none cterm=none
+hi ErrorMsg guifg=#d75f5f guibg=none gui=none ctermfg=167 ctermbg=none cterm=none
 " column separating vertically split windows
 hi VertSplit guifg=#777777 guibg=#363946 gui=none ctermfg=242 ctermbg=237 cterm=none
 " columns where signs are displayed (used in IDEs)
