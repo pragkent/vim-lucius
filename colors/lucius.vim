@@ -15,13 +15,13 @@ let colors_name="lucius"
 
 " Base color
 " ----------
-hi Normal guifg=#e0e0e0 guibg=#202020 ctermfg=253 ctermbg=235
+hi Normal guifg=#e0e0e0 guibg=#1c1c1c ctermfg=253 ctermbg=234
 
 
 " Comment Group
 " -------------
 " any comment
-hi Comment guifg=#005f87 gui=none ctermfg=24 cterm=none
+hi Comment guifg=#585858 gui=none ctermfg=240 cterm=none
 
 
 " Constant Group
@@ -38,14 +38,14 @@ hi link Float Constant
 " Identifier Group
 " ----------------
 " any variable name
-hi Identifier guifg=#0087d7 gui=none ctermfg=32 cterm=bold
+hi Identifier guifg=#00d7af gui=none ctermfg=43 cterm=none
 " function, method, class
 hi link Function Identifier
 
 " Statement Group
 " ---------------
 " any statement
-hi Statement guifg=#5fd7ff gui=none ctermfg=81 cterm=none
+hi Statement guifg=#d75f5f gui=none ctermfg=167 cterm=none
 " if, then, else
 hi link Conditional Statement
 " try, catch, throw, raise
@@ -63,7 +63,7 @@ hi link Keyword Statement
 " Preprocessor Group
 " ------------------
 " generic preprocessor
-hi PreProc guifg=#8787ff gui=none ctermfg=105 cterm=none
+hi PreProc guifg=#875fff gui=none ctermfg=099 cterm=none
 " #include
 hi link Include PreProc
 " #define
@@ -77,7 +77,7 @@ hi link PreCondit PreProc
 " Type Group
 " ----------
 " int, long, char
-hi Type guifg=#d65e76 gui=none ctermfg=167 cterm=none
+hi Type guifg=#00afff gui=none ctermfg=39 cterm=none
 " static, register, volative
 hi link StorageClass Type
 " struct, union, enum
